@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#fullScreen {
+	display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+#screen {
+	width: 414px;
+	height: 736px;
+	border: 2px solid black;
+display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	color: black;
+}
+#signIN {
+	border: solid 0.5px green;
+	border-radius: 15px 25px 15px 25px;
+}
+#appleID, #password {
+	height: 40px;
+	border: solid 0.5px green;
+	padding: 8px 8px 0px 8px;
+}
+#radar {
+	display: block;
+	margin: 0 auto;
+}
+.inputID:active {
+	outline: none;
+}
+.inputID:focus, .inputPass:focus {
+	outline: none;
+}
+.inputPass:active {
+	outline: none;
+}
+.inputPass, .inputID {
+	border: none;
+}
+#appleID {
+	text-align: left;
+	border: solid 0.5px gray;
+	border-bottom: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#password {
+	text-align: left;
+	border: solid 0.5px gray;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#footer {
+	color: #00cc00;
+}
+#signIn {
+	text-align: center;
+	text-decoration: none;
+}
+#forgotId, #forgotPass {
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+		flex-direction: column;
+}
+#signIn:link {
+	color: #00cc00;
+}
+#signIn:visited {
+	color: #00cc00;
+}
+#forgotId:link, #forgotPass:link {
+	text-decoration: none;
+	color: #00cc00;
+}
+#forgotId:visited, #forgotPass:visited {
+	color: #00cc00;
+}
